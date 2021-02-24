@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <p><?php echo $paragrafo.' Lunghezza: ' ?></p>
-    <p><?php echo $paragrafoChange.' Lunghezza: '.$lengthChange ?></p>
+    <p><?php echo $paragrafo.' Lunghezza: '.strlen($paragrafo) ?></p>
+    <p><?php echo $paragrafoChange.' Lunghezza: '.strlen($paragrafoChange) ?></p>
 </body>
 </html>
